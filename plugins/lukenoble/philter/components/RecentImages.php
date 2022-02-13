@@ -28,6 +28,9 @@ class RecentImages extends ComponentBase
 
     public function onRender()
     {
+        // $this->images - ImageModal::latest()->get();
+        // print("<pre>".print_r($this->images, 1)."</pre>");
+        // die();
 
         $user = Auth::getUser();
         if (is_object($user)) {

@@ -30,7 +30,7 @@ class UserImages extends ComponentBase
         $user = Auth::getUser();
         $this->images = [];
         if (is_object($user)) {
-            $this->images = ImageModel::userImages($user->id)->get();
+            $this->images = ImageModel::usersImages($user->id)->get();
         }
     }
 }

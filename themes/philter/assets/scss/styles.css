@@ -1,0 +1,40 @@
+/* Hero */
+#hero_wrapper {
+  background: #fff;
+  padding: 60px;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative; }
+  #hero_wrapper #hero {
+    background: url(../images/hero.jpg) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    #hero_wrapper #hero .container-fluid .row {
+      padding: 60px; }
+      #hero_wrapper #hero .container-fluid .row img {
+        display: block; }
+      #hero_wrapper #hero .container-fluid .row h1 {
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        width: 100%;
+        color: #F7C331; }
+      #hero_wrapper #hero .container-fluid .row p {
+        margin-bottom: 0;
+        color: #fff;
+        font-weight: 700;
+        display: block;
+        width: 100%;
+        margin-bottom: 15px; }
+      #hero_wrapper #hero .container-fluid .row .btn.btn-primary {
+        background: none; }
+        #hero_wrapper #hero .container-fluid .row .btn.btn-primary:hover {
+          background: none; }
+
+/*# sourceMappingURL=styles.css.map */

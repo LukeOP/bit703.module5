@@ -55,10 +55,9 @@ class Image extends Model
         return $query->take(8)->orderBy('id', 'desc');
     }
 
-    public function scopeuserImages($query, $user_id)
+    public static function usersImages($user_id)
     {
-
-        return $query->where('user_id', $user_id)->orderBy('id', 'desc');
+        return $query = Image::where('user_id', $user_id)->orderBy('id', 'desc');
     }
 
     public function scopeOthersImages($query, $user_id)
