@@ -10123,6 +10123,7 @@ footer a {
   opacity: 0;
   padding-top: 15px;
   padding-bottom: 15px;
+  cursor: pointer;
   text-align: center;
   color: #F7C331 !important;
   background-color: #2d2d2db5;
@@ -10352,6 +10353,48 @@ input[type="submit"]:focus, .custom-file-upload.btn-primary:focus,
   box-shadow: 0 0 0 0.2rem rgba(247, 195, 49, 0.5) !important;
 }
 
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #46525b;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+/* We don't actually use any h5 or h6 tags */
+body {
+  overflow: hidden;
+}
+
+a {
+  color: #F7C331;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ecb009;
+  text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+  /* Add padding for mobile view */
+  .container {
+    padding: 0 30px;
+  }
+}
+/* Added to clear the fixed header */
+#main {
+  margin-top: 90px;
+  min-height: calc(100vh - 142px);
+}
+
+.alert {
+  border-radius: 0;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Roboto Condensed', Arial, sans-serif;
   color: #F7C331;
@@ -10446,12 +10489,6 @@ h4 {
     font-size: 2rem;
     line-height: 2.5rem;
   }
-}
-.philter-primary {
-  color: #F7C331;
-}
-.philter-primary:hover {
-  color: #F7C331;
 }
 
 /*# sourceMappingURL=philter_styles.css.map */
