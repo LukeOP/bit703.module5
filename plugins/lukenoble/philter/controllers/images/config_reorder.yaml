@@ -1,0 +1,4 @@
+title: Images
+modelClass: LukeNoble\Philter\Models\Image
+toolbar:
+    buttons: reorder_toolbar
